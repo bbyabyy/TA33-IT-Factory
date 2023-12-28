@@ -3,8 +3,8 @@ Aici scriem instrctiuni cu care instantiem browserul
 Vom avea 2 metode: before_all si after_all
 """
 
-from Cursuri import Advanced_search_page
-from Cursuri import Home_page
+from Cursuri.course_12.pages.ebay_advanced_search_page import Advanced_search_page
+from Cursuri.course_12.pages.ebay_homepage import Home_page
 from browser import Browser
 
 # urmeaza niste instructiuni pe care le executam inainte de toate testele

@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.select import Select
 
-from Cursuri import Base_page
+from Cursuri.course_12.pages.base_pages import Base_page
 
 class Advanced_search_page(Base_page):
 
